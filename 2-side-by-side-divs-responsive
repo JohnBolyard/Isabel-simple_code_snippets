@@ -1,0 +1,50 @@
+<style>/* John@JohnBolyard.com Responsive Divs */
+
+@media screen and (min-width:769px){
+.ld_inner > div {
+    display: inline-block;
+    vertical-align: top;
+     width:42%;  
+	
+}
+.lg_main h2 {
+    text-align: left; 
+}
+}
+.lg_main {
+    max-width: 820px;
+    /* padding: 15px; */
+	
+}
+.ld_inner > div {
+    margin-bottom:0px;
+}
+.lg_main h2 {
+    border-bottom: 1px dashed;
+    margin: 0;
+    padding-bottom: 12px;
+	font-size:2em;
+}
+
+.ld_inner > div h3 {color:#0099ff;
+    font-size: 1.8em;
+}
+</style>
+
+<div class="lg_main">
+<h2>Headline</h2>
+<div class="ld_inner">
+<div class="lg_left">
+<h3>Sub-head Left</h3>
+<p>Your content.</p>
+<p style="font-weight: bold;">Something bold?</p>
+
+</div>
+<div class="lg_right">
+<h3>Sub-head Right</h3>
+<p>Your content.</p>
+<p style="font-weight: bold;">Something bold?</p>
+
+</div>
+</div>
+</div>
